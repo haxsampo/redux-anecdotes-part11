@@ -11,8 +11,10 @@ const reduc = combineReducers({
 
 const store = createStore(reduc)
 */
+/* eslint-disable */
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <App />
   </Provider>
 )
+/* eslint-enable */

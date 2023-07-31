@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import anecdoteService from '../services/anecdotes'
 import store from '../store'
-import { setNotification } from './NotificationReducer'
 
 const anecdoteSlice = createSlice({
   name: 'anecdote',

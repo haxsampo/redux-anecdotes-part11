@@ -1,4 +1,4 @@
-import { useSelector } from "react-redux"
+import React, { useSelector } from 'react-redux'
 
 const Notification = () => {
   const notif = useSelector(state => state.notification)
