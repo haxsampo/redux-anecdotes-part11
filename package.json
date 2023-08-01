@@ -1,8 +1,12 @@
 {
+  "engines": {
+    "node": "16.20.1"
+  },
   "name": "redux-anecdotes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "webpack": "^4.43.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,6 +23,7 @@
     "start": "react-scripts start",
     "start-prod": "node app.js",
     "build": "react-scripts build",
+    "webbuild": "webpack --mode production",
     "test": "jest",
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json",
@@ -49,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.1",
     "cypress": "^12.17.2",
     "eslint": "^8.46.0",
     "eslint-plugin-cypress": "^2.13.3",
