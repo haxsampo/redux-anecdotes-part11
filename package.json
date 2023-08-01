@@ -17,12 +17,16 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-prod": "node app.js",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json",
+    "server-test": "json-server -p3001 --watch db_test.json",
     "eslint": "eslint './**/*.{js,jsx}'",
-    "eslint-": "eslint"
+    "eslint-": "eslint",
+    "cypress:open": "cypress open",
+    "test_db_init": "node test_init.js"
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +47,9 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^12.17.2",
     "eslint": "^8.46.0",
+    "eslint-plugin-cypress": "^2.13.3",
     "jest": "^27.5.1",
     "json-server": "^0.17.3"
   }

@@ -2,8 +2,8 @@ module.exports = {
   "env": {
     "node": true,
     "es6": true,
-    "jest/globals": true
-    //"cypress/globals":true
+    "jest/globals": true,
+    "cypress/globals":true
   },
   "extends": [
     "eslint:recommended",
@@ -17,17 +17,18 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react", "jest"//, "cypress"
+    "react", "jest", "cypress"
   ],
   "rules": {
     "indent": [
       "error",
         2
-      ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
+      ]
+    //  ,
+    //"linebreak-style": [
+    //  "error",
+    //  "unix"]
+    ,
     "quotes": [
       "error",
       "single"
