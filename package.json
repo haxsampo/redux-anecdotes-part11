@@ -32,7 +32,6 @@
     "eslint-": "eslint",
     "cypress:open": "cypress open",
     "test_db_init": "node test_init.js",
-    "testi": "react-scripts start && server-test",
     "test:e2e": "cypress run"
   },
   "eslintConfig": {
