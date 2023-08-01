@@ -1,1 +1,9 @@
-{"anecdotes":[{"content":"Pikakassan kuunteleminen jouduttaa projektia kuin projektia","id":"7777","votes":3}]}
+{
+  "anecdotes": [
+    {
+      "content": "Pikakassan kuunteleminen jouduttaa projektia kuin projektia",
+      "id": "7777",
+      "votes": 7
+    }
+  ]
+}
