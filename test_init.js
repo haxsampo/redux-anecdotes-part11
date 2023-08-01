@@ -1,18 +1,18 @@
 var fs = require('fs')
 
-cb = function(err, result) {
-  if(err) console.log('error', err);
+var cb = function(err) {
+  if(err) console.log('error', err)
 }
 
-initial_db = {
-  "anecdotes": [
+var initial_db = {
+  'anecdotes': [
     {
-      "content": "Pikakassan kuunteleminen jouduttaa projektia kuin projektia",
-      "id": "7777",
-      "votes": 3
+      'content': 'Pikakassan kuunteleminen jouduttaa projektia kuin projektia',
+      'id': '7777',
+      'votes': 3
     }
   ]
 }
 
-dbs = JSON.stringify(initial_db)
-fs.writeFile("db_test.json", dbs, cb)
+var dbs = JSON.stringify(initial_db)
+fs.writeFile('db_test.json', dbs, cb)

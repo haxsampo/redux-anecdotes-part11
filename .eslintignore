@@ -4,3 +4,4 @@ build
 .eslintrc.js
 /root/cypress/*
 cypress/*
+cypress.config.js
